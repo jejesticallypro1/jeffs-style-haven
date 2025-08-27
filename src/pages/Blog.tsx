@@ -454,7 +454,7 @@ const Blog = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative py-32 bg-gradient-hero overflow-hidden">
+      <section className="relative py-40 bg-gradient-hero overflow-hidden min-h-[700px]">
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center text-white max-w-4xl mx-auto">
