@@ -49,7 +49,7 @@ const HeroSlideshow = () => {
   };
 
   return (
-    <div className="relative h-[80vh] overflow-hidden">
+    <div className="relative h-screen min-h-[800px] overflow-hidden">
       {slides.map((slide, index) => (
         <div
           key={slide.id}
@@ -69,10 +69,10 @@ const HeroSlideshow = () => {
             <div className="absolute inset-0 flex items-center">
               <div className="container mx-auto px-4">
                 <div className="max-w-2xl text-white">
-                  <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">
+                  <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-8 animate-fade-in leading-tight">
                     {slide.title}
                   </h1>
-                  <p className="text-xl md:text-2xl mb-8 text-gray-200 animate-fade-in">
+                  <p className="text-2xl md:text-3xl mb-10 text-gray-200 animate-fade-in leading-relaxed">
                     {slide.subtitle}
                   </p>
                   <Button 

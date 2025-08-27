@@ -13,11 +13,11 @@ const About = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-hero text-white">
+      <section className="relative py-32 bg-gradient-hero text-white overflow-hidden min-h-[600px]">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">About JEFF BARBERS & DREADLOCKS LTD</h1>
-            <p className="text-xl md:text-2xl text-gray-200 leading-relaxed">
+            <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight">About JEFF BARBERS & DREADLOCKS LTD</h1>
+            <p className="text-2xl md:text-3xl text-gray-200 leading-relaxed">
               We're more than just a barbershop - we're a community dedicated to bringing out the best in every client who walks through our doors.
             </p>
           </div>

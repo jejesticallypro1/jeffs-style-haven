@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Scissors } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,9 +21,15 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="flex items-center space-x-2">
-              <Scissors className="h-8 w-8 text-secondary" />
+          <Link to="/" className="flex items-center space-x-3">
+            <div className="flex items-center space-x-3">
+              <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-secondary shadow-lg">
+                <img 
+                  src={logo} 
+                  alt="Jeff Barbers & Dreadlocks LTD Logo" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <div className="text-xl font-bold text-primary">
                 JEFF BARBERS & DREADLOCKS LTD
               </div>
