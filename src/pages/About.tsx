@@ -3,9 +3,10 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Scissors, Users, Heart, Award, Clock, Star } from "lucide-react";
-import barberJeff from "@/assets/barber-jeff.jpg";
+import barberJeff from "@/assets/barber-jeff-new.jpg";
 import stylistSarah from "@/assets/stylist-sarah.jpg";
 import teamPhoto from "@/assets/team-photo.jpg";
+import barbershopInterior from "@/assets/barbershop-interior.jpg";
 
 const About = () => {
   return (
@@ -144,12 +145,12 @@ const About = () => {
                     className="w-32 h-32 rounded-full object-cover shadow-soft"
                   />
                 </div>
-                <CardTitle className="text-xl">Jeff Williams</CardTitle>
-                <CardDescription className="text-secondary font-semibold">Master Barber & Owner</CardDescription>
+                <CardTitle className="text-xl">Jeff</CardTitle>
+                <CardDescription className="text-secondary font-semibold">CEO & Master Barber</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  With over 15 years of experience, Jeff specializes in precision cuts, fades, and beard styling. His passion for the craft drives our commitment to excellence.
+                  Jeff is the CEO and founder with over 15 years of experience. He specializes in precision cuts, fades, and beard styling. His passion for the craft drives our commitment to excellence.
                 </p>
                 <div className="flex justify-center items-center space-x-1">
                   {[...Array(5)].map((_, i) => (
@@ -168,12 +169,12 @@ const About = () => {
                     className="w-32 h-32 rounded-full object-cover shadow-soft"
                   />
                 </div>
-                <CardTitle className="text-xl">Sarah Johnson</CardTitle>
-                <CardDescription className="text-secondary font-semibold">Dreadlock Specialist</CardDescription>
+                <CardTitle className="text-xl">Kelvin</CardTitle>
+                <CardDescription className="text-secondary font-semibold">Senior Barber</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Sarah is our resident dreadlock expert with 12 years of experience in loc maintenance, styling, and treatments. She's passionate about healthy hair care.
+                  Kelvin is our experienced senior barber with expertise in modern cuts and classic styles. Known for his attention to detail and friendly approach.
                 </p>
                 <div className="flex justify-center items-center space-x-1">
                   {[...Array(5)].map((_, i) => (
@@ -190,12 +191,12 @@ const About = () => {
                     <Users className="h-16 w-16 text-primary" />
                   </div>
                 </div>
-                <CardTitle className="text-xl">Our Team</CardTitle>
-                <CardDescription className="text-secondary font-semibold">Expert Stylists</CardDescription>
+                <CardTitle className="text-xl">Rohey</CardTitle>
+                <CardDescription className="text-secondary font-semibold">Dreadlock Specialist</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Our diverse team of skilled barbers and stylists brings together decades of combined experience to serve our community with dedication and expertise.
+                  Rohey is our talented dreadlock specialist with extensive experience in loc maintenance, styling, and treatments. She's passionate about healthy hair care.
                 </p>
                 <div className="flex justify-center items-center space-x-1">
                   {[...Array(5)].map((_, i) => (
@@ -211,11 +212,20 @@ const About = () => {
       {/* Why Choose Us Section */}
       <section className="py-20 bg-gradient-hero text-white">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Why Choose JEFF BARBERS & DREADLOCKS LTD?</h2>
-            <p className="text-xl text-gray-200 max-w-2xl mx-auto">
-              We're committed to providing an exceptional experience that goes beyond just a haircut
-            </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <h2 className="text-4xl font-bold mb-4">Why Choose JEFF BARBERS & DREADLOCKS LTD?</h2>
+              <p className="text-xl text-gray-200 mb-8">
+                We're committed to providing an exceptional experience that goes beyond just a haircut
+              </p>
+            </div>
+            <div className="relative">
+              <img
+                src={barbershopInterior}
+                alt="Our barbershop interior"
+                className="rounded-2xl shadow-luxury w-full"
+              />
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

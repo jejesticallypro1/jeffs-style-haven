@@ -68,11 +68,14 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2 text-gray-300">
                 <Phone className="h-4 w-4 text-secondary" />
-                <span>+1 (555) 123-4567</span>
+                <div>
+                  <div>+447535098633 (WhatsApp & Call)</div>
+                  <div>+447424665026 (WhatsApp only)</div>
+                </div>
               </div>
               <div className="flex items-center space-x-2 text-gray-300">
                 <MapPin className="h-4 w-4 text-secondary" />
-                <span>123 Style Street, City, State 12345</span>
+                <span>169 Old Kent Rd, London SE1 5NA, United Kingdom</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-300">
                 <Clock className="h-4 w-4 text-secondary" />
