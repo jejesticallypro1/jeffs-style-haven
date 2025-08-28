@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Scissors, Users, Heart, Award, Clock, Star } from "lucide-react";
-import barberJeff from "@/assets/barber-jeff-new.jpg";
+import barberJeff from "/lovable-uploads/692ee7ff-b24e-4db1-83e2-e86c2ffc29d2.png";
 import stylistSarah from "@/assets/stylist-sarah.jpg";
 import teamPhoto from "@/assets/team-photo.jpg";
 import barbershopInterior from "@/assets/barbershop-interior.jpg";
