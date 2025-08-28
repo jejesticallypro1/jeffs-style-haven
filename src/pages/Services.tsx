@@ -15,42 +15,42 @@ const Services = () => {
         {
           name: "Classic Haircuts",
           description: "Traditional and modern cuts tailored to your style",
-          price: "From $25",
+          price: "From £25",
           duration: "30-45 min",
           popular: false
         },
         {
           name: "Precision Fades",
           description: "High, mid, and low fades with expert blending",
-          price: "From $30",
+          price: "From £30",
           duration: "45-60 min",
           popular: true
         },
         {
           name: "Beard Trimming & Styling",
           description: "Professional beard shaping and maintenance",
-          price: "From $20",
+          price: "From £20",
           duration: "20-30 min",
           popular: false
         },
         {
           name: "Hot Towel Shave",
           description: "Traditional straight razor shave with hot towels",
-          price: "From $35",
+          price: "From £35",
           duration: "45 min",
           popular: false
         },
         {
           name: "Mustache Grooming",
           description: "Precision mustache trimming and styling",
-          price: "From $15",
+          price: "From £15",
           duration: "15-20 min",
           popular: false
         },
         {
           name: "Hair Washing & Conditioning",
           description: "Deep cleansing and nourishing treatments",
-          price: "From $10",
+          price: "From £10",
           duration: "15-20 min",
           popular: false
         }
@@ -64,42 +64,42 @@ const Services = () => {
         {
           name: "Dreadlock Installation",
           description: "Professional loc creation for all hair types",
-          price: "From $150",
+          price: "From £150",
           duration: "4-6 hours",
           popular: true
         },
         {
           name: "Dreadlock Maintenance",
           description: "Root tightening and loc care",
-          price: "From $80",
+          price: "From £80",
           duration: "2-3 hours",
           popular: true
         },
         {
           name: "Loc Styling & Updos",
           description: "Creative styling for special occasions",
-          price: "From $45",
+          price: "From £45",
           duration: "45-60 min",
           popular: false
         },
         {
           name: "Natural Hair Cuts",
           description: "Cuts designed for natural textures",
-          price: "From $40",
+          price: "From £40",
           duration: "45-60 min",
           popular: false
         },
         {
           name: "Protective Styling",
           description: "Braids, twists, and protective styles",
-          price: "From $60",
+          price: "From £60",
           duration: "2-4 hours",
           popular: false
         },
         {
           name: "Deep Conditioning Treatments",
           description: "Intensive moisture and protein treatments",
-          price: "From $25",
+          price: "From £25",
           duration: "45 min",
           popular: false
         }
@@ -113,35 +113,35 @@ const Services = () => {
         {
           name: "Kids Haircuts (Boys)",
           description: "Fun and stylish cuts for boys of all ages",
-          price: "From $20",
+          price: "From £20",
           duration: "30 min",
           popular: true
         },
         {
           name: "Kids Haircuts (Girls)",
           description: "Gentle cuts and styling for girls",
-          price: "From $25",
+          price: "From £25",
           duration: "30-45 min",
           popular: true
         },
         {
           name: "First Haircut Special",
           description: "Memorable first haircut experience with certificate",
-          price: "From $30",
+          price: "From £30",
           duration: "45 min",
           popular: false
         },
         {
           name: "Kids Styling",
           description: "Special occasion styling for children",
-          price: "From $20",
+          price: "From £20",
           duration: "30 min",
           popular: false
         },
         {
           name: "Hair Braiding for Kids",
           description: "Simple braids and protective styles",
-          price: "From $25",
+          price: "From £25",
           duration: "45-60 min",
           popular: false
         }
@@ -155,35 +155,35 @@ const Services = () => {
         {
           name: "Hair Coloring",
           description: "Professional color services and touch-ups",
-          price: "From $60",
+          price: "From £60",
           duration: "2-3 hours",
           popular: false
         },
         {
           name: "Highlights & Lowlights",
           description: "Expert color placement and techniques",
-          price: "From $80",
+          price: "From £80",
           duration: "2-4 hours",
           popular: false
         },
         {
           name: "Scalp Treatments",
           description: "Therapeutic scalp care and massage",
-          price: "From $35",
+          price: "From £35",
           duration: "30-45 min",
           popular: false
         },
         {
           name: "Hair Straightening",
           description: "Temporary and semi-permanent straightening",
-          price: "From $70",
+          price: "From £70",
           duration: "2-3 hours",
           popular: false
         },
         {
           name: "Eyebrow Trimming",
           description: "Professional eyebrow shaping and grooming",
-          price: "From $15",
+          price: "From £15",
           duration: "15-20 min",
           popular: false
         },
@@ -284,8 +284,8 @@ const Services = () => {
               <CardHeader className="text-center">
                 <Badge className="bg-secondary text-primary mb-4 w-fit mx-auto">Best Value</Badge>
                 <CardTitle className="text-2xl">The Complete Gentleman</CardTitle>
-                <div className="text-3xl font-bold text-secondary">$75</div>
-                <CardDescription>Save $20 on individual services</CardDescription>
+                <div className="text-3xl font-bold text-secondary">£75</div>
+                <CardDescription>Save £20 on individual services</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 mb-6">
@@ -315,7 +315,7 @@ const Services = () => {
             <Card className="hover:shadow-luxury transition-all duration-300">
               <CardHeader className="text-center">
                 <CardTitle className="text-2xl">Dreadlock Care Package</CardTitle>
-                <div className="text-3xl font-bold text-secondary">$120</div>
+                <div className="text-3xl font-bold text-secondary">£120</div>
                 <CardDescription>Complete dreadlock maintenance</CardDescription>
               </CardHeader>
               <CardContent>
@@ -346,7 +346,7 @@ const Services = () => {
             <Card className="hover:shadow-luxury transition-all duration-300">
               <CardHeader className="text-center">
                 <CardTitle className="text-2xl">Family Package</CardTitle>
-                <div className="text-3xl font-bold text-secondary">$85</div>
+                <div className="text-3xl font-bold text-secondary">£85</div>
                 <CardDescription>Perfect for families with children</CardDescription>
               </CardHeader>
               <CardContent>
