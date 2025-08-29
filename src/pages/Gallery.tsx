@@ -13,12 +13,6 @@ import galleryInterior from "@/assets/gallery-interior.jpg";
 import gallery1 from "@/assets/gallery-1.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
 import gallery3 from "@/assets/gallery-3.jpg";
-import dreadlock1 from "@/assets/dreadlock-1.jpg";
-import dreadlock2 from "@/assets/dreadlock-2.jpg";
-import dreadlock3 from "@/assets/dreadlock-3.jpg";
-import dreadlock4 from "@/assets/dreadlock-4.jpg";
-import dreadlock5 from "@/assets/dreadlock-5.jpg";
-import dreadlock6 from "@/assets/dreadlock-6.jpg";
 
 const galleryImages = [
   {
@@ -107,42 +101,42 @@ const galleryImages = [
   },
   {
     id: 13,
-    src: dreadlock1,
+    src: "/lovable-uploads/946a5280-73fa-4d40-9fe9-9511e1ec9fac.png",
     alt: "Professional dreadlock styling - Natural locs maintenance",
     category: "Dreadlocks",
     description: "Expert natural dreadlock maintenance and styling"
   },
   {
     id: 14,
-    src: dreadlock2,
+    src: "/lovable-uploads/a84d410b-cedf-421d-83ab-afdb3c9a4988.png",
     alt: "Professional dreadlock styling - Creative loc designs",
     category: "Dreadlocks",
     description: "Creative dreadlock styling and patterns"
   },
   {
     id: 15,
-    src: dreadlock3,
+    src: "/lovable-uploads/cf639c7b-7f0a-4ad4-9a0e-26be21eed008.png",
     alt: "Professional dreadlock styling - Modern loc cuts",
     category: "Dreadlocks",
     description: "Modern dreadlock cuts and styling techniques"
   },
   {
     id: 16,
-    src: dreadlock4,
+    src: "/lovable-uploads/ad092d26-2b6c-497f-a156-aee5b60b816c.png",
     alt: "Professional dreadlock styling - Loc maintenance",
     category: "Dreadlocks",
     description: "Professional dreadlock maintenance and care"
   },
   {
     id: 17,
-    src: dreadlock5,
+    src: "/lovable-uploads/22d303c2-0062-4a64-a4dc-19df5badc6d1.png",
     alt: "Professional dreadlock styling - Artistic loc designs",
     category: "Dreadlocks",
     description: "Artistic dreadlock styling and creative designs"
   },
   {
     id: 18,
-    src: dreadlock6,
+    src: "/lovable-uploads/433c1adb-4c65-4455-b342-f1d219e593bd.png",
     alt: "Professional dreadlock styling - Traditional loc work",
     category: "Dreadlocks",
     description: "Traditional dreadlock styling and professional care"

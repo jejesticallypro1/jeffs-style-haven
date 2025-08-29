@@ -99,7 +99,17 @@ const Footer = () => {
           <p className="text-gray-300 text-sm">
             © 2024 JEFF BARBERS & DREADLOCKS LTD. All rights reserved.
           </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
+          <div className="flex items-center space-x-6 mt-4 md:mt-0">
+            <a
+              href="https://wa.me/447424665026"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-secondary transition-colors flex items-center gap-2"
+              aria-label="Chat on WhatsApp"
+            >
+              <MessageCircle className="h-4 w-4" />
+              <span className="text-sm">WhatsApp: +44 7424 665026</span>
+            </a>
             <a href="#" className="text-gray-300 hover:text-secondary text-sm transition-colors">
               Privacy Policy
             </a>
