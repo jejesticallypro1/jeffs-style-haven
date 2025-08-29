@@ -24,9 +24,16 @@ const Footer = () => {
               <Button variant="ghost" size="icon" className="text-white hover:text-secondary">
                 <Instagram className="h-5 w-5" />
               </Button>
-              <Button variant="ghost" size="icon" className="text-white hover:text-secondary">
-                <MessageCircle className="h-5 w-5" />
-              </Button>
+              <a 
+                href="https://wa.me/447424665026"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block"
+              >
+                <Button variant="ghost" size="icon" className="text-white hover:text-secondary">
+                  <MessageCircle className="h-5 w-5" />
+                </Button>
+              </a>
             </div>
           </div>
 
@@ -105,13 +112,20 @@ const Footer = () => {
 
       {/* WhatsApp Float Button */}
       <div className="fixed bottom-6 right-6 z-50">
-        <Button 
-          variant="accent" 
-          size="icon" 
-          className="w-14 h-14 rounded-full shadow-luxury hover:scale-110 transition-all duration-300"
+        <a 
+          href="https://wa.me/447424665026?text=Hello! I'd like to book an appointment at Jeff Barbers & Dreadlocks LTD"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block"
         >
-          <MessageCircle className="h-6 w-6" />
-        </Button>
+          <Button 
+            variant="accent" 
+            size="icon" 
+            className="w-14 h-14 rounded-full shadow-luxury hover:scale-110 transition-all duration-300"
+          >
+            <MessageCircle className="h-6 w-6" />
+          </Button>
+        </a>
       </div>
     </footer>
   );

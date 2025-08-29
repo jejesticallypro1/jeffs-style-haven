@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    /* Core Brand Colors - Vibrant Orange Theme from Jeff's Barbershop */
+    /* Core Brand Colors - Black, White, Gold, Green */
     --background: 0 0% 100%;
     --foreground: 0 0% 8%;
     
@@ -16,24 +16,24 @@
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 8%;
     
-    /* Primary - Vibrant Orange from Barbershop Wall */
-    --primary: 14 95% 55%;
+    /* Primary - Rich Black */
+    --primary: 0 0% 8%;
     --primary-foreground: 0 0% 98%;
     
-    /* Secondary - Deep Orange */
-    --secondary: 14 90% 50%;
-    --secondary-foreground: 0 0% 98%;
+    /* Secondary - Luxury Gold */
+    --secondary: 45 100% 50%;
+    --secondary-foreground: 0 0% 8%;
     
     /* Muted - Soft Gray */
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 45%;
     
-    /* Accent - Complementary Orange Tone */
-    --accent: 20 100% 60%;
+    /* Accent - Vibrant Green */
+    --accent: 120 60% 50%;
     --accent-foreground: 0 0% 98%;
     
-    /* Success/Highlight - Warm Orange */
-    --success: 25 95% 55%;
+    /* Success/Highlight - Gold Variant */
+    --success: 45 95% 45%;
     --success-foreground: 0 0% 8%;
     
     --destructive: 0 84% 60%;
@@ -41,18 +41,18 @@
     
     --border: 0 0% 90%;
     --input: 0 0% 96%;
-    --ring: 14 95% 55%;
+    --ring: 45 100% 50%;
 
     --radius: 0.5rem;
     
-    /* Custom Gradients - Orange Theme */
-    --gradient-gold: linear-gradient(135deg, hsl(14 95% 55%), hsl(20 100% 60%));
-    --gradient-hero: linear-gradient(135deg, hsl(14 95% 55%), hsl(14 90% 50%));
-    --gradient-accent: linear-gradient(135deg, hsl(20 100% 60%), hsl(25 95% 55%));
+    /* Custom Gradients */
+    --gradient-gold: linear-gradient(135deg, hsl(45 100% 50%), hsl(45 95% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 8%), hsl(0 0% 15%));
+    --gradient-accent: linear-gradient(135deg, hsl(120 60% 50%), hsl(120 65% 45%));
     
-    /* Shadows - Orange Theme */
-    --shadow-luxury: 0 10px 30px -10px hsl(14 95% 55% / 0.3);
-    --shadow-soft: 0 4px 20px -4px hsl(14 50% 40% / 0.1);
+    /* Shadows */
+    --shadow-luxury: 0 10px 30px -10px hsl(45 100% 50% / 0.3);
+    --shadow-soft: 0 4px 20px -4px hsl(0 0% 0% / 0.1);
     
     /* Typography Scale */
     --font-hero: 3.5rem;

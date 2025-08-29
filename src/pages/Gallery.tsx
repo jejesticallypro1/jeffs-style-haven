@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -12,6 +13,12 @@ import galleryInterior from "@/assets/gallery-interior.jpg";
 import gallery1 from "@/assets/gallery-1.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
 import gallery3 from "@/assets/gallery-3.jpg";
+import dreadlock1 from "@/assets/dreadlock-1.jpg";
+import dreadlock2 from "@/assets/dreadlock-2.jpg";
+import dreadlock3 from "@/assets/dreadlock-3.jpg";
+import dreadlock4 from "@/assets/dreadlock-4.jpg";
+import dreadlock5 from "@/assets/dreadlock-5.jpg";
+import dreadlock6 from "@/assets/dreadlock-6.jpg";
 
 const galleryImages = [
   {
@@ -97,12 +104,60 @@ const galleryImages = [
     alt: "Precision cutting and styling techniques",
     category: "Precision Cuts",
     description: "Advanced cutting techniques and styling"
+  },
+  {
+    id: 13,
+    src: dreadlock1,
+    alt: "Professional dreadlock styling - Natural locs maintenance",
+    category: "Dreadlocks",
+    description: "Expert natural dreadlock maintenance and styling"
+  },
+  {
+    id: 14,
+    src: dreadlock2,
+    alt: "Professional dreadlock styling - Creative loc designs",
+    category: "Dreadlocks",
+    description: "Creative dreadlock styling and patterns"
+  },
+  {
+    id: 15,
+    src: dreadlock3,
+    alt: "Professional dreadlock styling - Modern loc cuts",
+    category: "Dreadlocks",
+    description: "Modern dreadlock cuts and styling techniques"
+  },
+  {
+    id: 16,
+    src: dreadlock4,
+    alt: "Professional dreadlock styling - Loc maintenance",
+    category: "Dreadlocks",
+    description: "Professional dreadlock maintenance and care"
+  },
+  {
+    id: 17,
+    src: dreadlock5,
+    alt: "Professional dreadlock styling - Artistic loc designs",
+    category: "Dreadlocks",
+    description: "Artistic dreadlock styling and creative designs"
+  },
+  {
+    id: 18,
+    src: dreadlock6,
+    alt: "Professional dreadlock styling - Traditional loc work",
+    category: "Dreadlocks",
+    description: "Traditional dreadlock styling and professional care"
   }
 ];
 
 const categories = ["All", "Men's Cuts", "Dreadlocks", "Kids Cuts", "Beard Care", "Hair Care", "Hair Color", "Transformations"];
 
 const Gallery = () => {
+  const [selectedCategory, setSelectedCategory] = useState("All");
+
+  const filteredImages = galleryImages.filter((image) => 
+    selectedCategory === "All" || image.category === selectedCategory
+  );
+
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -120,9 +175,16 @@ const Gallery = () => {
               From precision cuts to stunning transformations, witness the quality of our professional services.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="hero" size="lg" className="text-lg px-8">
-                Book Your Appointment
-              </Button>
+              <a 
+                href="https://wa.me/447535098633?text=Hello! I'd like to book an appointment at Jeff Barbers & Dreadlocks LTD"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block"
+              >
+                <Button variant="hero" size="lg" className="text-lg px-8">
+                  Book Your Appointment
+                </Button>
+              </a>
               <Button variant="outline" size="lg" className="text-lg px-8 border-white text-white hover:bg-white hover:text-primary">
                 View Services
               </Button>
@@ -139,8 +201,9 @@ const Gallery = () => {
             {categories.map((category) => (
               <Button
                 key={category}
-                variant="outline"
+                variant={selectedCategory === category ? "default" : "outline"}
                 className="hover:bg-secondary hover:text-primary transition-all duration-300"
+                onClick={() => setSelectedCategory(category)}
               >
                 {category}
               </Button>
@@ -149,7 +212,7 @@ const Gallery = () => {
 
           {/* Gallery Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {galleryImages.map((image) => (
+            {filteredImages.map((image) => (
               <div 
                 key={image.id} 
                 className="group relative overflow-hidden rounded-lg shadow-soft hover:shadow-luxury transition-all duration-500 cursor-pointer"
@@ -182,9 +245,16 @@ const Gallery = () => {
               Experience the same level of excellence showcased in our gallery. 
               Book your appointment today and join our satisfied clients.
             </p>
-            <Button variant="accent" size="lg" className="text-lg px-8">
-              Schedule Your Visit
-            </Button>
+            <a 
+              href="https://wa.me/447535098633?text=Hello! I'd like to book an appointment at Jeff Barbers & Dreadlocks LTD"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block"
+            >
+              <Button variant="accent" size="lg" className="text-lg px-8">
+                Schedule Your Visit
+              </Button>
+            </a>
           </div>
         </div>
       </section>
