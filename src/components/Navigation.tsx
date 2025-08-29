@@ -49,9 +49,15 @@ const Navigation = () => {
                 {item.name}
               </Link>
             ))}
-            <Button variant="hero" className="ml-4">
-              Book Now
-            </Button>
+            <a 
+              href="https://wa.me/447424665026?text=Hello! I'd like to book an appointment at Jeff Barbers & Dreadlocks LTD"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="hero" className="ml-4">
+                Book Now
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -83,9 +89,16 @@ const Navigation = () => {
                 </Link>
               ))}
               <div className="px-4 pt-2">
-                <Button variant="hero" className="w-full">
-                  Book Now
-                </Button>
+                <a 
+                  href="https://wa.me/447424665026?text=Hello! I'd like to book an appointment at Jeff Barbers & Dreadlocks LTD"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full"
+                >
+                  <Button variant="hero" className="w-full">
+                    Book Now
+                  </Button>
+                </a>
               </div>
             </div>
           </div>

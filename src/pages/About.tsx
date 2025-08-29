@@ -40,9 +40,15 @@ const About = () => {
               <p className="text-lg text-muted-foreground mb-8">
                 Today, we continue to blend traditional barbering techniques with modern styling innovations, ensuring every client leaves feeling confident and looking their absolute best.
               </p>
-              <Button variant="hero" size="lg" className="text-lg px-8">
-                Book Your Appointment
-              </Button>
+              <a 
+                href="https://wa.me/447424665026?text=Hello! I'd like to book an appointment at Jeff Barbers & Dreadlocks LTD"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="hero" size="lg" className="text-lg px-8">
+                  Book Your Appointment
+                </Button>
+              </a>
             </div>
             <div className="relative">
               <img

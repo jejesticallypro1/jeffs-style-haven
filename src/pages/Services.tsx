@@ -211,9 +211,15 @@ const Services = () => {
               Comprehensive grooming and styling services for men, women, boys, and girls. 
               From classic cuts to intricate dreadlock styling, we've got you covered.
             </p>
-            <Button variant="hero" size="lg" className="text-lg px-8">
-              Book Your Service Today
-            </Button>
+            <a 
+              href="https://wa.me/447424665026?text=Hello! I'd like to book an appointment at Jeff Barbers & Dreadlocks LTD"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="hero" size="lg" className="text-lg px-8">
+                Book Your Service Today
+              </Button>
+            </a>
           </div>
         </div>
       </section>
@@ -253,12 +259,19 @@ const Services = () => {
                         <CardDescription className="text-base mb-4">
                           {service.description}
                         </CardDescription>
-                        <Button 
-                          variant="outline" 
-                          className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300"
+                        <a 
+                          href="https://wa.me/447424665026?text=Hello! I'd like to book a service at Jeff Barbers & Dreadlocks LTD"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block w-full"
                         >
-                          Book This Service
-                        </Button>
+                          <Button 
+                            variant="outline" 
+                            className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300"
+                          >
+                            Book This Service
+                          </Button>
+                        </a>
                       </CardContent>
                     </Card>
                   ))}
@@ -306,9 +319,16 @@ const Services = () => {
                     Hair Wash & Style
                   </li>
                 </ul>
-                <Button variant="hero" className="w-full">
-                  Book Package
-                </Button>
+                <a 
+                  href="https://wa.me/447424665026?text=Hello! I'd like to book The Complete Gentleman package at Jeff Barbers & Dreadlocks LTD"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full"
+                >
+                  <Button variant="hero" className="w-full">
+                    Book Package
+                  </Button>
+                </a>
               </CardContent>
             </Card>
 
@@ -337,9 +357,16 @@ const Services = () => {
                     Scalp Treatment
                   </li>
                 </ul>
-                <Button variant="premium" className="w-full">
-                  Book Package
-                </Button>
+                <a 
+                  href="https://wa.me/447424665026?text=Hello! I'd like to book the Dreadlock Care Package at Jeff Barbers & Dreadlocks LTD"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full"
+                >
+                  <Button variant="premium" className="w-full">
+                    Book Package
+                  </Button>
+                </a>
               </CardContent>
             </Card>
 
@@ -368,9 +395,16 @@ const Services = () => {
                     Family Photo
                   </li>
                 </ul>
-                <Button variant="accent" className="w-full">
-                  Book Package
-                </Button>
+                <a 
+                  href="https://wa.me/447424665026?text=Hello! I'd like to book the Family Package at Jeff Barbers & Dreadlocks LTD"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full"
+                >
+                  <Button variant="accent" className="w-full">
+                    Book Package
+                  </Button>
+                </a>
               </CardContent>
             </Card>
           </div>
@@ -385,12 +419,24 @@ const Services = () => {
             Book your appointment today and experience the difference professional care makes
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="lg" className="text-lg px-8">
-              Book Online Now
-            </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 border-white text-white hover:bg-white hover:text-primary">
-              Call Us: (555) 123-4567
-            </Button>
+            <a 
+              href="https://wa.me/447424665026?text=Hello! I'd like to book an appointment at Jeff Barbers & Dreadlocks LTD"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="hero" size="lg" className="text-lg px-8">
+                Book Online Now
+              </Button>
+            </a>
+            <a 
+              href="https://wa.me/447535098633?text=Hello! I'd like to speak about booking at Jeff Barbers & Dreadlocks LTD"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="outline" size="lg" className="text-lg px-8 border-white text-white hover:bg-white hover:text-primary">
+                WhatsApp: +44 7535 098633
+              </Button>
+            </a>
           </div>
         </div>
       </section>

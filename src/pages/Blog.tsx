@@ -469,9 +469,15 @@ const Blog = () => {
               <Button variant="hero" size="lg" className="text-lg px-8">
                 Subscribe to Newsletter
               </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 border-white text-white hover:bg-white hover:text-primary">
-                Book Consultation
-              </Button>
+              <a 
+                href="https://wa.me/447424665026?text=Hello! I'd like to book a consultation at Jeff Barbers & Dreadlocks LTD"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outline" size="lg" className="text-lg px-8 border-white text-white hover:bg-white hover:text-primary">
+                  Book Consultation
+                </Button>
+              </a>
             </div>
           </div>
         </div>

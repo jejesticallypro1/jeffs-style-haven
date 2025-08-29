@@ -75,13 +75,19 @@ const HeroSlideshow = () => {
                   <p className="text-2xl md:text-3xl mb-10 text-gray-200 animate-fade-in leading-relaxed">
                     {slide.subtitle}
                   </p>
-                  <Button 
-                    variant="hero" 
-                    size="lg"
-                    className="text-lg px-8 py-4 animate-fade-in"
+                  <a 
+                    href="https://wa.me/447424665026?text=Hello! I'd like to book an appointment at Jeff Barbers & Dreadlocks LTD"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    {slide.cta}
-                  </Button>
+                    <Button 
+                      variant="hero" 
+                      size="lg"
+                      className="text-lg px-8 py-4 animate-fade-in"
+                    >
+                      {slide.cta}
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>
